@@ -26,22 +26,6 @@
 * **Mutant 9 KILLED:**
   * `negated conditional → KILLED` Changed Line 644 `if (canContinueValidation(ignore))` to `if (!canContinueValidation(ignore))` 
   * This mutant attempts to make a resursive call even without a validation to continue. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 * **Mutant 10 SURVIVED:**
   * `changed conditional boundary → SURVIVED` Changed Line 193 `if (toTest.getColumnNo() < first.getColumnNo())` to have either one of `<=, >, >=` instead 
   * This mutant allows the wrong node of an AST to be assigned as the first node in an AST.
